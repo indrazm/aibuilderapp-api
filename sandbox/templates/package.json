@@ -1,0 +1,11 @@
+{
+  "name": "sandbox-server",
+  "type": "module",
+  "scripts": {
+    "start": "bun run server.js",
+    "dev": "bun run server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

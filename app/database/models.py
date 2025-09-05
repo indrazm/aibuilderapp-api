@@ -1,8 +1,8 @@
 from enum import Enum
 from typing import List, Optional
 
-from sqlmodel import Field, Relationship, JSON
 from sqlalchemy import Enum as SQLEnum
+from sqlmodel import JSON, Field, Relationship
 
 from app.core.models import BaseModel
 
